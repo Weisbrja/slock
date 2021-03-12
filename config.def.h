@@ -18,6 +18,6 @@ static const int failonclear = 0;
 ResourcePref resources[] = {
 	{ "normbgcolor",   STRING,   &colorname[INIT]   },
 	{ "selbgcolor",    STRING,   &colorname[INPUT]  },
-	{ "color5",        STRING,   &colorname[FAILED] },
+	{ "color4",        STRING,   &colorname[FAILED] },
 	{ "color1",        STRING,   &colorname[CAPS]   },
 };
