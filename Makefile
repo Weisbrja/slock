@@ -10,9 +10,9 @@ all: options slock
 
 options:
 	@echo slock build options:
-	@echo "CFLAGS   = ${CFLAGS}"
-	@echo "LDFLAGS  = ${LDFLAGS}"
-	@echo "CC       = ${CC}"
+	@echo "CFLAGS  = ${CFLAGS}"
+	@echo "LDFLAGS = ${LDFLAGS}"
+	@echo "CC      = ${CC}"
 
 .c.o:
 	@echo CC $<
@@ -30,7 +30,7 @@ slock: ${OBJ}
 
 clean:
 	@echo cleaning
-	@rm -f slock ${OBJ} slock-${VERSION}.tar.gz
+	@rm -f slock ${OBJ} slock-${VERSION}.tar.gz config.h
 
 dist: clean
 	@echo creating dist tarball
