@@ -22,5 +22,5 @@ ResourcePref resources[] = {
 	{ "normbgcolor",   STRING,   &colorname[INIT]   },
 	{ "selbgcolor",    STRING,   &colorname[INPUT]  },
 	{ "normbgcolor",   STRING,   &colorname[FAILED] },
-	{ "color1",        STRING,   &colorname[CAPS]   },
+	{ "color5",        STRING,   &colorname[CAPS]   },
 };
